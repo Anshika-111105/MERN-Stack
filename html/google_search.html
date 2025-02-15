@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google search</title>
+</head>
+<body>
+    <form action="https://www.google.com/search">
+        <div>
+            <input type="text" placeholder="Search in google" name="q"/>
+            <button type="submit">Search</button>
+        </div>
+        <hr/>
+        <div>
+            <label for="fruit">Choose fruit :</label>
+            <input type="radio" id="apple" name="fruit" value="apple" />
+            <label for="apple">apple</label>
+            <input type="radio" id="mango" name="fruit" value="mango" />
+            <label for="mango">mango</label>
+            <input type="radio" id="banana" name="fruit" value="banana" />
+            <label for="banana">banana</label>
+        </div>
+        <div>
+            <label for="profession">Who are you :</label>
+            <select id="profession" name="profession">
+                <option value="dev">Developer</option>
+                <option value="Stu">Student</option>
+            </select>
+            <br/>
+            <button type="submit">Submit</button>
+        </div>
+        <hr/>
+        <div>
+            <label for="vol">volume</label>
+            <input type="range" id="vol" name="vol" min="0" max="100"/>
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+    
+</body>
+</html>
