@@ -88,3 +88,6 @@
     opacity:1;
     transform: scale(1.1);
 }
+#check:checked ~ .sidebar_menu{
+    left: 0;
+}
